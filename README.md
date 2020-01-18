@@ -1,9 +1,9 @@
 
 ## Usage
 ```
-$ docker run --rm tjoskar/awsnode:8 node -e "console.log('Hello 👋')"
+$ docker run --rm tjoskar/awsnode:12 node -e "console.log('Hello 👋')"
 
-$ docker run --rm --volume ${PWD}/dist:/build tjoskar/awsnode:10 npm install --production
+$ docker run --rm --volume ${PWD}/dist:/build tjoskar/awsnode:12 npm ci --production
 ```
 
 ## Deploy
